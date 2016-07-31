@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045FE8261D4E386A00DD0C53 /* YWActionPaopaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045FE8251D4E386A00DD0C53 /* YWActionPaopaoView.m */; };
+		1CEB552A1F4E781D0B95A07B /* libPods-YWLJMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C4A5C5FF421297AC686FF6 /* libPods-YWLJMapView.a */; };
+		A77A5EC91D48860F00AA8FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A5EC81D48860F00AA8FB2 /* main.m */; };
+		A77A5ECC1D48860F00AA8FB2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A77A5ECB1D48860F00AA8FB2 /* AppDelegate.mm */; };
+		A77A5ECF1D48860F00AA8FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A5ECE1D48860F00AA8FB2 /* ViewController.m */; };
+		A77A5ED21D48860F00AA8FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77A5ED01D48860F00AA8FB2 /* Main.storyboard */; };
+		A77A5ED41D48860F00AA8FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A5ED31D48860F00AA8FB2 /* Assets.xcassets */; };
+		A77A5ED71D48860F00AA8FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77A5ED51D48860F00AA8FB2 /* LaunchScreen.storyboard */; };
+		A77A5EE21D48860F00AA8FB2 /* YWLJMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A5EE11D48860F00AA8FB2 /* YWLJMapViewTests.m */; };
+		A77A5EED1D48860F00AA8FB2 /* YWLJMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A5EEC1D48860F00AA8FB2 /* YWLJMapViewUITests.m */; };
+		A77A5EFD1D4895D100AA8FB2 /* YWRoundAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A5EFC1D4895D100AA8FB2 /* YWRoundAnnotationView.m */; };
+		A77A5F001D48A24700AA8FB2 /* YWPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A5EFF1D48A24700AA8FB2 /* YWPointAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A77A5EDE1D48860F00AA8FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77A5EBC1D48860F00AA8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77A5EC31D48860F00AA8FB2;
+			remoteInfo = YWLJMapView;
+		};
+		A77A5EE91D48860F00AA8FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77A5EBC1D48860F00AA8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77A5EC31D48860F00AA8FB2;
+			remoteInfo = YWLJMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045FE8241D4E386A00DD0C53 /* YWActionPaopaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWActionPaopaoView.h; sourceTree = "<group>"; };
+		045FE8251D4E386A00DD0C53 /* YWActionPaopaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWActionPaopaoView.m; sourceTree = "<group>"; };
+		61995E5BFF571AFC41122375 /* Pods-YWLJMapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLJMapView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWLJMapView/Pods-YWLJMapView.release.xcconfig"; sourceTree = "<group>"; };
+		A77A5EC41D48860F00AA8FB2 /* YWLJMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLJMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77A5EC81D48860F00AA8FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77A5ECA1D48860F00AA8FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A77A5ECB1D48860F00AA8FB2 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		A77A5ECD1D48860F00AA8FB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A77A5ECE1D48860F00AA8FB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A77A5ED11D48860F00AA8FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A77A5ED31D48860F00AA8FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A77A5ED61D48860F00AA8FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A77A5ED81D48860F00AA8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77A5EDD1D48860F00AA8FB2 /* YWLJMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLJMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77A5EE11D48860F00AA8FB2 /* YWLJMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLJMapViewTests.m; sourceTree = "<group>"; };
+		A77A5EE31D48860F00AA8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77A5EE81D48860F00AA8FB2 /* YWLJMapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLJMapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77A5EEC1D48860F00AA8FB2 /* YWLJMapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLJMapViewUITests.m; sourceTree = "<group>"; };
+		A77A5EEE1D48860F00AA8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77A5EFB1D4895D100AA8FB2 /* YWRoundAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWRoundAnnotationView.h; sourceTree = "<group>"; };
+		A77A5EFC1D4895D100AA8FB2 /* YWRoundAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWRoundAnnotationView.m; sourceTree = "<group>"; };
+		A77A5EFE1D48A24700AA8FB2 /* YWPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPointAnnotation.h; sourceTree = "<group>"; };
+		A77A5EFF1D48A24700AA8FB2 /* YWPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWPointAnnotation.m; sourceTree = "<group>"; };
+		C4C4A5C5FF421297AC686FF6 /* libPods-YWLJMapView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWLJMapView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC24B0586BF6127DAE9BAA26 /* Pods-YWLJMapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWLJMapView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWLJMapView/Pods-YWLJMapView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77A5EC11D48860F00AA8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEB552A1F4E781D0B95A07B /* libPods-YWLJMapView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77A5EDA1D48860F00AA8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77A5EE51D48860F00AA8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CE3F86CE077545AF0F4D63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC24B0586BF6127DAE9BAA26 /* Pods-YWLJMapView.debug.xcconfig */,
+				61995E5BFF571AFC41122375 /* Pods-YWLJMapView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A77A5EBB1D48860F00AA8FB2 = {
+			isa = PBXGroup;
+			children = (
+				A77A5EC61D48860F00AA8FB2 /* YWLJMapView */,
+				A77A5EE01D48860F00AA8FB2 /* YWLJMapViewTests */,
+				A77A5EEB1D48860F00AA8FB2 /* YWLJMapViewUITests */,
+				A77A5EC51D48860F00AA8FB2 /* Products */,
+				12CE3F86CE077545AF0F4D63 /* Pods */,
+				C8B34FD65CCAE20CD8323F74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A77A5EC51D48860F00AA8FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77A5EC41D48860F00AA8FB2 /* YWLJMapView.app */,
+				A77A5EDD1D48860F00AA8FB2 /* YWLJMapViewTests.xctest */,
+				A77A5EE81D48860F00AA8FB2 /* YWLJMapViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77A5EC61D48860F00AA8FB2 /* YWLJMapView */ = {
+			isa = PBXGroup;
+			children = (
+				A77A5EFA1D4893E900AA8FB2 /* YWClass */,
+				A77A5ECA1D48860F00AA8FB2 /* AppDelegate.h */,
+				A77A5ECB1D48860F00AA8FB2 /* AppDelegate.mm */,
+				A77A5ECD1D48860F00AA8FB2 /* ViewController.h */,
+				A77A5ECE1D48860F00AA8FB2 /* ViewController.m */,
+				A77A5ED01D48860F00AA8FB2 /* Main.storyboard */,
+				A77A5ED31D48860F00AA8FB2 /* Assets.xcassets */,
+				A77A5ED51D48860F00AA8FB2 /* LaunchScreen.storyboard */,
+				A77A5ED81D48860F00AA8FB2 /* Info.plist */,
+				A77A5EC71D48860F00AA8FB2 /* Supporting Files */,
+			);
+			path = YWLJMapView;
+			sourceTree = "<group>";
+		};
+		A77A5EC71D48860F00AA8FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77A5EC81D48860F00AA8FB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A77A5EE01D48860F00AA8FB2 /* YWLJMapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A77A5EE11D48860F00AA8FB2 /* YWLJMapViewTests.m */,
+				A77A5EE31D48860F00AA8FB2 /* Info.plist */,
+			);
+			path = YWLJMapViewTests;
+			sourceTree = "<group>";
+		};
+		A77A5EEB1D48860F00AA8FB2 /* YWLJMapViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A77A5EEC1D48860F00AA8FB2 /* YWLJMapViewUITests.m */,
+				A77A5EEE1D48860F00AA8FB2 /* Info.plist */,
+			);
+			path = YWLJMapViewUITests;
+			sourceTree = "<group>";
+		};
+		A77A5EFA1D4893E900AA8FB2 /* YWClass */ = {
+			isa = PBXGroup;
+			children = (
+				A77A5EFB1D4895D100AA8FB2 /* YWRoundAnnotationView.h */,
+				A77A5EFC1D4895D100AA8FB2 /* YWRoundAnnotationView.m */,
+				A77A5EFE1D48A24700AA8FB2 /* YWPointAnnotation.h */,
+				A77A5EFF1D48A24700AA8FB2 /* YWPointAnnotation.m */,
+				045FE8241D4E386A00DD0C53 /* YWActionPaopaoView.h */,
+				045FE8251D4E386A00DD0C53 /* YWActionPaopaoView.m */,
+			);
+			path = YWClass;
+			sourceTree = "<group>";
+		};
+		C8B34FD65CCAE20CD8323F74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C4A5C5FF421297AC686FF6 /* libPods-YWLJMapView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77A5EC31D48860F00AA8FB2 /* YWLJMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77A5EF11D48860F00AA8FB2 /* Build configuration list for PBXNativeTarget "YWLJMapView" */;
+			buildPhases = (
+				5EBD4225676146BF49A8BE71 /* [CP] Check Pods Manifest.lock */,
+				A77A5EC01D48860F00AA8FB2 /* Sources */,
+				A77A5EC11D48860F00AA8FB2 /* Frameworks */,
+				A77A5EC21D48860F00AA8FB2 /* Resources */,
+				C329671823507285C46A572D /* [CP] Embed Pods Frameworks */,
+				260B09DC74E8D7072AF204D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWLJMapView;
+			productName = YWLJMapView;
+			productReference = A77A5EC41D48860F00AA8FB2 /* YWLJMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A77A5EDC1D48860F00AA8FB2 /* YWLJMapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77A5EF41D48860F00AA8FB2 /* Build configuration list for PBXNativeTarget "YWLJMapViewTests" */;
+			buildPhases = (
+				A77A5ED91D48860F00AA8FB2 /* Sources */,
+				A77A5EDA1D48860F00AA8FB2 /* Frameworks */,
+				A77A5EDB1D48860F00AA8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77A5EDF1D48860F00AA8FB2 /* PBXTargetDependency */,
+			);
+			name = YWLJMapViewTests;
+			productName = YWLJMapViewTests;
+			productReference = A77A5EDD1D48860F00AA8FB2 /* YWLJMapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A77A5EE71D48860F00AA8FB2 /* YWLJMapViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77A5EF71D48860F00AA8FB2 /* Build configuration list for PBXNativeTarget "YWLJMapViewUITests" */;
+			buildPhases = (
+				A77A5EE41D48860F00AA8FB2 /* Sources */,
+				A77A5EE51D48860F00AA8FB2 /* Frameworks */,
+				A77A5EE61D48860F00AA8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77A5EEA1D48860F00AA8FB2 /* PBXTargetDependency */,
+			);
+			name = YWLJMapViewUITests;
+			productName = YWLJMapViewUITests;
+			productReference = A77A5EE81D48860F00AA8FB2 /* YWLJMapViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77A5EBC1D48860F00AA8FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mr-yuwei";
+				TargetAttributes = {
+					A77A5EC31D48860F00AA8FB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 34TTMZE623;
+					};
+					A77A5EDC1D48860F00AA8FB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A77A5EC31D48860F00AA8FB2;
+					};
+					A77A5EE71D48860F00AA8FB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A77A5EC31D48860F00AA8FB2;
+					};
+				};
+			};
+			buildConfigurationList = A77A5EBF1D48860F00AA8FB2 /* Build configuration list for PBXProject "YWLJMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77A5EBB1D48860F00AA8FB2;
+			productRefGroup = A77A5EC51D48860F00AA8FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77A5EC31D48860F00AA8FB2 /* YWLJMapView */,
+				A77A5EDC1D48860F00AA8FB2 /* YWLJMapViewTests */,
+				A77A5EE71D48860F00AA8FB2 /* YWLJMapViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77A5EC21D48860F00AA8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77A5ED71D48860F00AA8FB2 /* LaunchScreen.storyboard in Resources */,
+				A77A5ED41D48860F00AA8FB2 /* Assets.xcassets in Resources */,
+				A77A5ED21D48860F00AA8FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77A5EDB1D48860F00AA8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77A5EE61D48860F00AA8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260B09DC74E8D7072AF204D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLJMapView/Pods-YWLJMapView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EBD4225676146BF49A8BE71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C329671823507285C46A572D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWLJMapView/Pods-YWLJMapView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77A5EC01D48860F00AA8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045FE8261D4E386A00DD0C53 /* YWActionPaopaoView.m in Sources */,
+				A77A5EFD1D4895D100AA8FB2 /* YWRoundAnnotationView.m in Sources */,
+				A77A5ECF1D48860F00AA8FB2 /* ViewController.m in Sources */,
+				A77A5F001D48A24700AA8FB2 /* YWPointAnnotation.m in Sources */,
+				A77A5ECC1D48860F00AA8FB2 /* AppDelegate.mm in Sources */,
+				A77A5EC91D48860F00AA8FB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77A5ED91D48860F00AA8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77A5EE21D48860F00AA8FB2 /* YWLJMapViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77A5EE41D48860F00AA8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77A5EED1D48860F00AA8FB2 /* YWLJMapViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A77A5EDF1D48860F00AA8FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77A5EC31D48860F00AA8FB2 /* YWLJMapView */;
+			targetProxy = A77A5EDE1D48860F00AA8FB2 /* PBXContainerItemProxy */;
+		};
+		A77A5EEA1D48860F00AA8FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77A5EC31D48860F00AA8FB2 /* YWLJMapView */;
+			targetProxy = A77A5EE91D48860F00AA8FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A77A5ED01D48860F00AA8FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77A5ED11D48860F00AA8FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A77A5ED51D48860F00AA8FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77A5ED61D48860F00AA8FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77A5EEF1D48860F00AA8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A77A5EF01D48860F00AA8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77A5EF21D48860F00AA8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC24B0586BF6127DAE9BAA26 /* Pods-YWLJMapView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YWLJMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr-yuwei.YWLJMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A77A5EF31D48860F00AA8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61995E5BFF571AFC41122375 /* Pods-YWLJMapView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YWLJMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr-yuwei.YWLJMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A77A5EF51D48860F00AA8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YWLJMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr-yuwei.YWLJMapViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWLJMapView.app/YWLJMapView";
+			};
+			name = Debug;
+		};
+		A77A5EF61D48860F00AA8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YWLJMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr-yuwei.YWLJMapViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWLJMapView.app/YWLJMapView";
+			};
+			name = Release;
+		};
+		A77A5EF81D48860F00AA8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YWLJMapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr-yuwei.YWLJMapViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YWLJMapView;
+			};
+			name = Debug;
+		};
+		A77A5EF91D48860F00AA8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YWLJMapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr-yuwei.YWLJMapViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YWLJMapView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77A5EBF1D48860F00AA8FB2 /* Build configuration list for PBXProject "YWLJMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77A5EEF1D48860F00AA8FB2 /* Debug */,
+				A77A5EF01D48860F00AA8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77A5EF11D48860F00AA8FB2 /* Build configuration list for PBXNativeTarget "YWLJMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77A5EF21D48860F00AA8FB2 /* Debug */,
+				A77A5EF31D48860F00AA8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77A5EF41D48860F00AA8FB2 /* Build configuration list for PBXNativeTarget "YWLJMapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77A5EF51D48860F00AA8FB2 /* Debug */,
+				A77A5EF61D48860F00AA8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77A5EF71D48860F00AA8FB2 /* Build configuration list for PBXNativeTarget "YWLJMapViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77A5EF81D48860F00AA8FB2 /* Debug */,
+				A77A5EF91D48860F00AA8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77A5EBC1D48860F00AA8FB2 /* Project object */;
+}
