@@ -19,4 +19,6 @@
 - (NSString *)subtitle;
 /////该点的坐标
 - (id)initWithCoordinate:(CLLocationCoordinate2D)coordinate;
+
+
 @end

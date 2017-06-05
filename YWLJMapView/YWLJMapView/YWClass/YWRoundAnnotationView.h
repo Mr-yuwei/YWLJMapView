@@ -13,6 +13,8 @@
 
 @property(nonatomic,copy)NSString *titleText;
 @property(nonatomic,copy)NSString *countText;
+
+
 @end
 
 

@@ -45,7 +45,6 @@
     _listArray=[[ NSMutableArray alloc] init];
     [self initMapView];//初始化地图
     [self initlocationService];
-    //[self initWithBottomView];
     [self SetBasicLocation];
 
 }
@@ -198,8 +197,6 @@
         
     }else if ([ view isKindOfClass:[YWRectAnnotationView class ]]){
         
-       
-        
         YWRectAnnotationView *cusView = (YWRectAnnotationView *)view;
         CGRect frame = [cusView convertRect:cusView.calloutView.frame toView:_mapView];
         
@@ -249,8 +246,7 @@
         }
         [self mapViewAddANNotations];
     }
-    
-    
+
     
 }
 - (void)didUpdateBMKUserLocation:(BMKUserLocation *)userLocation{
